@@ -1,7 +1,8 @@
 import "../styles/retail.css";
 import { useNavigate } from "react-router-dom";
-  const navigate = useNavigate();
+
 export default function RetailSolutions() {
+    const navigate = useNavigate();
   return (
     <div className="retail-page">
 

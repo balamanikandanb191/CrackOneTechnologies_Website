@@ -1,8 +1,9 @@
 import "../styles/digital-platform.css";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
-  const navigate = useNavigate();
+ 
 export default function DigitalPlatformSolutions() {
+    const navigate = useNavigate();
   return (
     <div className="digital-page">
 
@@ -282,9 +283,11 @@ export default function DigitalPlatformSolutions() {
           Let's discuss how CrackOne can build a custom
           digital platform for your organization.
         </p>
-      <button>
+      <button
   className="platform-talk-btn"
   onClick={() => navigate("/contact")}
+>
+  Talk to an Expert
 </button>
       </section>
 

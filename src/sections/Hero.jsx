@@ -1,7 +1,10 @@
 import "../styles/hero.css";
 import { useNavigate } from "react-router-dom";
-  const navigate = useNavigate();
+
 export default function Hero() {
+
+  const navigate = useNavigate();
+
   return (
     <section className="hero" id="hero">
       <video
@@ -17,6 +20,7 @@ export default function Hero() {
       <div className="hero-overlay"></div>
 
       <div className="hero-content">
+
         <h1>
           Creating Technology
           <br />
@@ -28,6 +32,7 @@ export default function Hero() {
         </p>
 
         <div className="hero-buttons">
+
           <button
             className="hero-primary-btn"
             onClick={() => navigate("/contact")}
@@ -45,7 +50,9 @@ export default function Hero() {
           >
             Explore Solutions
           </button>
+
         </div>
+
       </div>
     </section>
   );
