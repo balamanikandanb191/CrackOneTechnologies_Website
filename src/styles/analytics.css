@@ -46,7 +46,7 @@
   
 }
 .analytics-talk-btn{
-    background:#2563eb;
+    background:#F4B73D;
     color:#fff;
     border:none;
     padding:16px 34px;
@@ -58,7 +58,7 @@
 }
 
 .analytics-talk-btn:hover{
-    background:#1d4ed8;
+    background:#D89B18;
     transform:translateY(-3px);
 }
 /* COMMON SECTION */
@@ -353,7 +353,7 @@
 }
 
 .analytics-cta-btn{
-  background:#2563eb;
+  background:#F4B73D;
   color:white;
 
   border:none;
@@ -365,6 +365,11 @@
   font-weight:600;
 
   cursor:pointer;
+  transition:.3s;
+}
+
+.analytics-cta-btn:hover{
+  background:#D89B18;
 }
 
 /* MOBILE */
@@ -459,7 +464,7 @@
   }
 }
 
-@media (max-width:768px){
+@media (max-width:1023px){
 
   .analytics-users-wrapper{
     height:auto;

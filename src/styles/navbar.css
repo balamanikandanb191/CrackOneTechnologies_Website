@@ -94,7 +94,7 @@
     border:none;
     border-radius:10px;
 
-    background:#2563eb;
+    background:#F4B73D;
     color:#fff;
 
     font-size:16px;
@@ -105,7 +105,7 @@
 }
 
 .cta-btn:hover{
-    background:#1d4ed8;
+    background:#D89B18;
     transform:translateY(-2px);
 }
 
@@ -121,7 +121,7 @@
 
 /* ================= MOBILE ================= */
 
-@media (max-width:768px){
+@media (max-width:1023px){
 
 .navbar{
     height:70px;

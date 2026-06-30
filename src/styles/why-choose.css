@@ -92,8 +92,19 @@ font-family: "Dancing Script", cursive;
 
 /* Mobile */
 /* Mobile */
+/* ===============================
+   Default (Desktop)
+================================= */
 
-@media(max-width:768px){
+.desktop-slider{
+    display:block;
+}
+
+.mobile-slider{
+    display:none;
+}
+
+@media (max-width:1023px){
 
     .why-choose{
         padding:80px 5%;
@@ -109,43 +120,30 @@ font-family: "Dancing Script", cursive;
     }
 
     /* Hide Desktop */
-
     .desktop-slider{
         display:none;
     }
 
     /* Show Mobile */
-
     .mobile-slider{
         display:block;
         overflow:hidden;
         width:100%;
+        margin-top:20px;
     }
 
     .mobile-track{
-
         display:flex;
-        gap:18px;
-
+        gap:20px;
         width:max-content;
-
-        animation:mobileSlider 18s linear infinite;
-
-    }
-
-    .mobile-track:hover{
-        animation-play-state:paused;
+        animation:mobileSlider 20s linear infinite;
     }
 
     .mobile-track .why-card{
-
-        width:280px;
+        width:300px;
         flex-shrink:0;
-
     }
-
 }
-
 @keyframes mobileSlider{
 
     from{
@@ -189,9 +187,8 @@ font-family: "Dancing Script", cursive;
 .slider-track-right .why-card,
 .slider-track-left .why-card{
   flex:1;
-  min-width:350px;
+  min-width:320px;
 }
-
 /* Slider Animation */
 
 .slider-track-right{

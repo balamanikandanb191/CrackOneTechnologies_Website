@@ -34,7 +34,7 @@
 }
 
 .hero-content h1 {
-  font-size: 72px;
+  font-size: clamp(36px, 5.5vw, 72px);
   line-height: 1.1;
   font-weight: 700;
   color: white;
@@ -66,12 +66,13 @@
 }
 
 .hero-primary-btn{
-    background:#2563eb;
+    background:#F4B73D;
     color:#fff;
     border:none;
 }
 
 .hero-primary-btn:hover{
+    background:#D89B18;
     transform:translateY(-3px);
 }
 

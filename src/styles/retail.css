@@ -46,7 +46,7 @@
   
 }
 .retail-talk-btn{
-    background:#2563eb;
+    background:#F4B73D;
     color:#fff;
     border:none;
     padding:16px 34px;
@@ -58,7 +58,7 @@
 }
 
 .retail-talk-btn:hover{
-    background:#1d4ed8;
+    background:#D89B18;
     transform:translateY(-3px);
 }
 /* COMMON SECTION */
@@ -235,7 +235,7 @@
 
 /* MOBILE */
 
-@media(max-width:992px){
+@media(max-width:1023px){
 
   .retail-hero{
     min-height:70vh;
