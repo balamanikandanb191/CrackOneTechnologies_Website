@@ -38,7 +38,7 @@ function HomePage() {
 
 function App() {
   return (
-    <BrowserRouter basename="/CrackOneTechnologies_Website/">
+    <BrowserRouter>
 
       <ScrollToTop />
 
